@@ -5,7 +5,7 @@
 
 🌟 Data overview
   - Include 7 files: Categories, Customers, Employees, Order_details, Orders, Products, Shippers 
-  - Total 830 orders, time range from Jul 2013 - Jun 2015. Each order has 3 types of date: Ordered date, Required date, Shipped date. Some ordered are seen with null Shipped date.
+  - Total 830 orders, time range from Jul 2013 - Jun 2015. Each order has 3 types of date: Ordered date, Required date, Shipped date. Some orders are seen with null Shipped date.
 
 🌟 Dashboard structure
 
