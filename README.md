@@ -1,27 +1,48 @@
-# PowerBI-project
+# Northwind Traders Dashboard (Power BI)
+A data-driven Dashboard to get update of key business factors for executive decision-making.
+
 🌟 Background
-- Your role in this project: a BI Developer for Northwind Traders, a global import and export company that specializes in supplying high-quality gourmet food products to restaurants, cafes, and specialty food retailers around the world. 
-- Task: build **a top-level KPI dashboard** for the executive team so that they can **quickly understand the company's performance** in key areas **Sales trends, Product performance, Key customers, Shipping costs**
+  - Role: **BI Developer** for Northwind Traders, a global import and export company in gourmet food products.
+  - Task: build **an executive KPI dashboard** to provide **quick insights of company performance** in key areas 
+    + Sales trends
+    + Product performance
+    + Key customers
+    + Shipping costs
 
 🌟 Data overview
-  - Include 7 files: Categories, Customers, Employees, Order_details, Orders, Products, Shippers 
-  - Total 830 orders, time range from Jul 2013 - Jun 2015. Each order has 3 types of date: Ordered date, Required date, Shipped date. Some orders are seen with null Shipped date.
+  - The datasets include 7 files: 
+    + Categories
+    + Customers
+    + Employees
+    + Order_details
+    + Orders
+    + Products
+    + Shippers 
+  - Key facts:
+    + Total 830 orders from Jul 2013 - Jun 2015
+    + Each order has 3 types of date: Ordered date, Required date, Shipped date. 
+    + Some orders are seen with null Shipped date (Incomplete).
 
-🌟 Dashboard structure
-
-This Dashboard is built **for high-level positions to get quick understand of company performance**, so my approach is building **1-page report**. It will include
-1. **Overview**: Key KPI card to get current performance & YoY. Metrics: Sales, Shipping cost, No of orders, No of customers
-2. **Details of key areas** 
-  - Sales trends: track sales over time by line chart and Top 5 Employees by sales in Tooltip
-  - Shipping costs: track shipping cost per order over time by line chart and Shipping company overview in Tooltip
-  - Product performance: through sale by Category and top 5 Product's sale performance
-  - Key customers: top 5 Customers by Sales
-3. **Slicers**
-  - Time aka Year, Month
+🌟 Dashboard structure: A 1-page Dashboard for executive to get quick business update
+  1. **Overview**
+  - KPI cards: Sales, Shipping cost, No of orders, No of customers (with YoY change)
+  2. **Sales trend** 
+  - Line chart tracks sales over time
+  - Tooltip: Top 5 Employees by sales
+  3. **Shipping cost**
+  - Line chart tracks shipping cost per order over time
+  - Tooltip: Shipping company overview
+  4. **Product**
+  - Bar chart: Sales by Product Category
+  - Table of top 5 Product's performance (with YoY change)
+  5. **Key customers**
+  - Table of top 5 Customers by Sales (with YoY change)
+  6. **Slicers**
+  - Time: Year, Month
   - Sales calculated by: Ordered date, Shipped date
-  - Order status: Complete, Incomplete; in which Incomplete order is order with null Shipped date.
-  - Month status: Complete, Incomplete; in which Incomplete month is month including incomplete order.
-  - Other slicers based on the raw data: Product category, Customer Name, Employee Name, Shipping Company
+  - Order status: Complete, Incomplete (Incomplete= Order with null Shipped date).
+  - Month status: Complete, Incomplete (Incomplete= Month with incomplete order).
+  - Others: Product category, Customer Name, Employee Name, Shipping Company
 
 🌟 About Me
 
