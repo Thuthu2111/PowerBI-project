@@ -1,5 +1,13 @@
 # Northwind Traders Dashboard (Power BI)
-A data-driven Dashboard to get update of key business factors for executive decision-making.
+A data-driven Dashboard to get update of key business factors for executive decision-making
+
+🌟 Technical highlights
+  - Report design: create 1-page dasboard with clean layout, all key areas coverage and dynamic slicers
+  - DAX: develope custom measures (ex: Shipping cost per Order, Sales, No orders, YoY difference & percentage, etc)
+  - Interactive visuals: provide friendly-user report with Slicers, Tooltips, Conditional formating
+  - Advanced filtering: allow flexibility in viewing data (ex: Sales calculated by Order date/Shipped date, Order status, Month status)
+
+📊 Key insights
 
 🌟 Background
   - Role: **BI Developer** for Northwind Traders, a global import and export company in gourmet food products.
@@ -10,14 +18,7 @@ A data-driven Dashboard to get update of key business factors for executive deci
     + Shipping costs
 
 🌟 Data overview
-  - The datasets include 7 files: 
-    + Categories
-    + Customers
-    + Employees
-    + Order_details
-    + Orders
-    + Products
-    + Shippers 
+  - The datasets include 7 files: Categories, Customers, Employees, Order_details, Orders, Products, Shippers 
   - Key facts:
     + Total 830 orders from Jul 2013 - Jun 2015
     + Each order has 3 types of date: Ordered date, Required date, Shipped date. 
