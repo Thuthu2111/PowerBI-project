@@ -7,7 +7,13 @@ A data-driven Dashboard to get update of key business factors for executive deci
   - Interactive visuals: provide friendly-user report with Slicers, Tooltips, Conditional formating
   - Advanced filtering: allow flexibility in viewing data (ex: Sales calculated by Order date/Shipped date, Order status, Month status)
 
-📊 Key insights
+📊 Executive Summary
+  - Sales
+  - Product performance
+    + Category
+    + Product
+  - Key Customers: 
+  - Shipping Cost
 
 🌟 Background
   - Role: **BI Developer** for Northwind Traders, a global import and export company in gourmet food products.
