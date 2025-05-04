@@ -2,12 +2,18 @@
 A data-driven Dashboard to get update of key business factors for executive decision-making
 
 📊 Executive Summary
-  - Sales
-  - Product performance
-    + Category
-    + Product
-  - Key Customers: 
-  - Shipping Cost
+  - **Sale increased** impressively **+80% YoY** within first 5 months of 2015
+    + Sales from Jan-May 2015 reached $440k, +80% YoY (+196k). 
+      Reason: **Sale of top 5 products as well as key customers contributed 34% to overall YoY increase**
+    + May 2015 was the lowest sale month ($18k) due to sale recorded only for the 5 first days.
+  - **Shipping cost effiency improved** along sale growth
+    + Total shipping cost rose in line with sale, +83% YoY (+10K)
+    + Shipping cost per order showed a decereasing trend from $99 (Jan) -> $49 (May)
+  - **High dependacy of Sales in key Categories/Products**
+    + ~60% of sales are contributed by Top 3 product categories (Beverage, Daily Products, Confections).
+    + Top 5 products saw strong growth, contributed 34% to YoY sale increase.
+  - Key Customers:
+    + Top 5 customers led by Enerst Handel contributed 36% of sale and also accounted 34% to YoY sale increase.
 
 🌟 Technical highlights
   - Report design: create 1-page dasboard with clean layout, all key areas coverage and dynamic slicers
