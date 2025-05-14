@@ -21,9 +21,9 @@ A data-driven Dashboard to get update of key business factors for executive deci
 
 🌟 Technical highlights
   - Report design: create 1-page dasboard with clean layout, all key areas coverage and dynamic slicers
-  - DAX: develope custom measures (ex: Shipping cost per Order, Sales, No orders, YoY difference & percentage, etc)
-  - Interactive visuals: provide friendly-user report with Slicers, Tooltips, Conditional formating
-  - Advanced filtering: allow flexibility in viewing data (ex: Sales calculated by Order date/Shipped date, Order status, Month status)
+  - DAX: develope **custom measures** (ex: Shipping cost per Order, Sales, No orders, YoY difference & percentage, etc)
+  - **Interactive visuals**: provide friendly-user report with **Slicers, Tooltips, Conditional formating**
+  - **Advanced filtering**: allow flexibility in viewing data (ex: Sales calculated by Order date/Shipped date, Order status, Month status)
 
 🌟 Data overview
   - The datasets include 7 files: Categories, Customers, Employees, Order_details, Orders, Products, Shippers 
